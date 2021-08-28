@@ -7,9 +7,9 @@ session_start();
 
 
 
-define('USER_ID', '4c310d9d-a9c1-4d98-a433-8a0501166eb1'); // API user id
-define('API_KEY', 'ca6b7089bc774bbaa06c9d48b4c922f6'); // API kEY
-define('COLLECTION_SUBSCRIPTION_KEY', 'c7818539fa964888b6551916319bdc2c'); // Collection subscription key
+define('USER_ID', ''); // API user id
+define('API_KEY', ''); // API kEY
+define('COLLECTION_SUBSCRIPTION_KEY', ''); // Collection subscription key
 
 
 if(isset($_SESSION['token'])){
